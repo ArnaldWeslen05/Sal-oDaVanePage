@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom , #333333, #000000);
+    height: 100vh;
+}
+header {
+    padding: 10px 4%;
+    background-color: rgba(18, 17, 17, 0.7);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  
+  header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+  }
+  header a:hover {
+    color: rgb(243, 243, 243);
+    transition: all 1.2s;
+    transform: scale(1.02);
+  }
+  header nav ul {
+    list-style-type: none;
+  }
+  header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  p.sdvt{
+    display: inline-block;
+    color: rgb(202, 7, 7);
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  /*    CABECARIO
