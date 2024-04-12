@@ -2,10 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif; 
+    font-family: 'Poppins', sans-serif; 
 }
 body{
     background: linear-gradient(to bottom , #333333, #000000);
     height: 100vh;
+}
+.flex{
+  display: flex;
 }
 header {
     padding: 10px 4%;
@@ -44,4 +49,49 @@ header {
     font-weight: bold;
     font-style: italic;
   }
-  /*    CABECARIO
+  /*    CABECARIO */
+ .topo-do-site{
+  padding: 80px 8% ;
+  margin-left: 20px;
+ }
+  .topo-do-site h1{
+    color: white;
+    font-size: 38px;
+    gap: 90px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(202, 7, 7);
+    
+}
+.topo-do-site .txt-topo-site p{
+    color: rgba(193, 193, 193, 0.896);
+    margin: 40px 0px;
+    animation: p 8s;
+}
+.topo-do-site .img-topo-site img{
+    width: 300px;
+    margin-left: 200px;
+    position: relative; 
+    
+}
+.txt-topo-site h1  {
+  animation: txt 2s;
+}
+
+
+
+@keyframes txt{
+  0%{
+    margin-left: -500px;
+  }100%{
+    margin-left: 0;
+  } 
+}
+@keyframes p {
+  0%{
+    color: transparent;
+  }100%{
+    color: rgba(193, 193, 193, 0.896);
+  }
+}
